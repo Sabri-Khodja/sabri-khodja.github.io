@@ -37,3 +37,18 @@
 	margin: 0px auto auto auto;  	
 	box-shadow: -25px 0px 10px rgba(20, 20, 20, 0.5), 25px 0px 10px  rgba(20, 20, 20, 0.5);     
 }
+
+
+#gameeditor {
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;                        
+	align-content: flex-start;
+	width: 80%;
+	margin: 0px auto auto auto;                        
+	height: auto;    
+	min-height: 800px;
+	position: relative;
+	top: 0px;  
+}
