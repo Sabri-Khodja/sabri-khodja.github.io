@@ -14,7 +14,7 @@
 	box-sizing: border-box;
 	top: 0;
 	width: 100%;
-	height: fit-content;
+	height: 80px;
 	display: display-flex;
 	box-align: center;                  
 	align-items: center;                  
