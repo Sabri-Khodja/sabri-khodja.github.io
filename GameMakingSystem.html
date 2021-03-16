@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<title>Game Making System</title>
+	<link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+        <div id="root">
+			<div id="header">				
+				<h2>Game Making System</h2>													
+				<a style="color:#00ffff;" href ="index.html">back</a>
+			</div>	  
+			<div id="mainSection">
+                <h3>Project description</h3>
+                <p>This project started in 2013 as a business prospect to make simple 2D games for mobile phones.
+                    The idea was to be able to produce a lot of games quickly. Those games would differ mostly from the graphics and sounds and would generate revenues thanks to embedded advertisement.
+                    Unfortunately that business idea was eventually killed when Apple decided to be more restrictive on the applications it would accept on its app store.
+                </p>
+                
+				<p>The system consists of 2 main components. A game engine and a game editor.</p>
+                <p>Once a game is designed, a special tool is used to merge the project file produced by the game editor with the code of the game engine into a Visual Studio solution.
+                That solution is then built to produce the game binaries that can be uploaded on the device. The game can run on windows as well which is helpful during developement.</p>
+
+                <p>A first beta version of the system was implemented and supports top view racing games. 
+                    The Game Editor is functionnal and game demos were actually running on IPhones.</p>
+
+                <h3>The game engine</h3>                
+                <text>The game engine is implemented using the </text><a href ="https://www.monogame.net">MonoGame</a><text> framework.</text>
+                <p>It provides components such as physics, game logic, game objects management.</p>
+                <h3>The game editor</h3>
+                <p>The game editor is implemented with the Silverlight technology. It's an Out Of Browser application (OOB).</p>                
+                <p>Thanks to the Silverlight pluggin being available on several platforms, the game editor is a multi-platform application. In particular it can run on Widows and on Mac OS.</p>                
+                <text>Some screenshots of the game editor can be found </text>
+				<a href ="game-editor.html">here</a>
+				<text>.</text>   
+                <p>Silverlight being an obsolete technology, the pluggin is not available on recent versions of most web browser.</p> 
+                <p>I am now considering a port to WPF which would not be too difficult as Silverlight is based on XAML and is very similar to WPF. But the application would run on Windows only.</p> 
+                <p>Another option would be to wait for .Net MAUI to be released.</p>
+			</div>
+		</div>    
+  </body>
+</html>
